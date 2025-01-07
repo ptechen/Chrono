@@ -1,0 +1,9 @@
+[package]
+name = "views"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+leptos.workspace = true
+display_enum.workspace = true
+kit.workspace = true

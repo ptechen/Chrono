@@ -2,7 +2,7 @@ use leptos::task::spawn_local;
 use leptos::{ev::SubmitEvent, prelude::*};
 use serde::{Deserialize, Serialize};
 use wasm_bindgen::prelude::*;
-use views::login_register::LoginRegister;
+use views::root::Root;
 
 #[wasm_bindgen]
 extern "C" {
@@ -41,7 +41,7 @@ pub fn App() -> impl IntoView {
     // };
 
     view! {
-        <LoginRegister/>
+        <Root/>
         // <main class="container">
         //     <h1>"Welcome to Tauri + Leptos"</h1>
         //

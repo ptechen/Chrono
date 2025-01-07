@@ -1,4 +1,4 @@
-pub mod login_register;
-mod login;
-mod register;
+mod login_register;
 mod theme;
+mod index;
+pub mod root;

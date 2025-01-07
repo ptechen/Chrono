@@ -1,1 +1,2 @@
-pub mod generate_mnemonic;
+pub mod mnemonic;
+pub mod password;

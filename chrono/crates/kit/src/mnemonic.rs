@@ -5,3 +5,7 @@ pub fn generate_mnemonic() -> String {
     let mnemonic = Mnemonic::new(MnemonicType::Words12, English);
     mnemonic.to_string()
 }
+
+pub fn validate_mnemonic(mnemonic: &str) -> bool {
+    Mnemonic::from_phrase(mnemonic, English).is_ok()
+}

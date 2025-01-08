@@ -1,0 +1,9 @@
+[package]
+name = "error"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+thiserror.workspace = true
+gloo-net.workspace = true
+leptos.workspace = true

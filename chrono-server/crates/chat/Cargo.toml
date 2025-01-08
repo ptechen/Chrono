@@ -1,0 +1,12 @@
+[package]
+name = "chat"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+error.workspace = true
+models.workspace = true
+serde_json.workspace = true
+serde = { workspace = true, features = ["derive"] }
+libp2p = { workspace = true, features = [ "tokio", "gossipsub", "mdns", "noise", "macros", "tcp", "yamux", "quic", "autonat", "dcutr", "ping", "request-response", "identify"] }
+async-trait.workspace = true

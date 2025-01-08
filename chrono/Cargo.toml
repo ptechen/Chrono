@@ -15,17 +15,24 @@ console_error_panic_hook.workspace = true
 views.workspace = true
 
 [workspace]
-members = [ "crates/*","src-tauri"]
+members = [ "crates/*", "src-tauri" ]
 
 [workspace.dependencies]
-leptos = { version = "0.7" }
+leptos = "0.7"
 wasm-bindgen = "0.2"
 wasm-bindgen-futures = "0.4"
 js-sys = "0.3"
-serde = { version = "1" }
+serde = "1"
 serde-wasm-bindgen = "0.6"
 console_error_panic_hook = "0.1.7"
-views = { path = "crates/views" }
 display_enum = "0.1.5"
 tiny-bip39 = "2.0.0"
+gloo-net = "0.6.0"
+gloo-storage = "0.3.0"
+thiserror = "2.0.9"
+
+configs = { path = "crates/configs" }
+storage = {path = "crates/storage"}
+views = { path = "crates/views" }
 kit = { path = "crates/kit" }
+error = {path ="crates/error" }

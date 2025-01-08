@@ -1,0 +1,20 @@
+[package]
+name = "chat-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+futures.workspace = true
+tokio = { workspace = true, features = ["full"] }
+tracing.workspace = true
+libp2p = { workspace = true, features = [ "tokio",  "noise", "macros", "tcp", "yamux", "quic", "autonat", "dcutr", "ping",  "identify", "kad", "relay", "gossipsub", "request-response"] }
+tracing-subscriber = { workspace = true, features = ["env-filter"] }
+serde_json.workspace = true
+error.workspace = true
+middleware.workspace = true
+async-trait.workspace = true
+serde = { workspace = true, features = ["derive"] }
+gossipsub_sync.workspace = true
+chat.workspace = true
+init_behaviour = { workspace = true }
+macros.workspace = true

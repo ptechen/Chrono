@@ -2,11 +2,35 @@
 <module type="EMPTY_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/chrono-server/chat-test/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chrono-server/chrono-im/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chrono-server/crates/avatar/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chrono-server/crates/censor/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chrono-server/crates/channel/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chrono-server/crates/chat/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chrono-server/crates/error/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chrono-server/crates/gossipsub_sync/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chrono-server/crates/init_behaviour/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chrono-server/crates/macros/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chrono-server/crates/middleware/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chrono-server/crates/models/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chrono-server/crates/models/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/chrono-server/crates/nickname/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chrono-server/crates/send_email/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chrono-server/crates/send_email/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/chrono-server/crates/swarm/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chrono-server/relay-server/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chrono/crates/configs/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chrono/crates/error/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chrono/crates/international/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chrono/crates/kit/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chrono/crates/storage/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chrono/crates/views/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chrono/crates/wasm_http/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chrono/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chrono/src-tauri/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/chrono-server/chrono-im/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chrono-server/target" />
       <excludeFolder url="file://$MODULE_DIR$/chrono/target" />
     </content>
     <orderEntry type="inheritedJdk" />

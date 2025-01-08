@@ -1,0 +1,9 @@
+[package]
+name = "channel"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chat.workspace = true
+once_cell.workspace = true
+tokio = { workspace = true, features = ["sync"] }

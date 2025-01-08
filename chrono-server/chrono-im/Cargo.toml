@@ -1,0 +1,38 @@
+[package]
+name = "chrono-im"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[package.metadata.release]
+release = false
+
+[dependencies]
+tracing.workspace = true
+futures.workspace = true
+once_cell.workspace = true
+serde_json.workspace = true
+middleware.workspace = true
+async-trait.workspace = true
+base64.workspace = true
+error.workspace = true
+tokio-util = { workspace = true, features = ["io"] }
+axum = { workspace = true, features = ["ws"] }
+tokio = { workspace = true, features = ["full"] }
+serde = { workspace = true, features = ["derive"] }
+send_email = { workspace = true }
+tower-http = { workspace = true, features = ["cors", "trace"] }
+tracing-subscriber = { workspace = true, features = ["env-filter"] }
+models.workspace = true
+tiny-bip39.workspace = true
+chrono.workspace = true
+rand.workspace = true
+nickname.workspace = true
+avatar.workspace = true
+crc64fast.workspace = true
+channel.workspace = true
+swarm.workspace = true
+libp2p = { workspace = true , features = [ "tokio", "gossipsub", "mdns", "noise", "macros", "tcp", "yamux", "quic"] }
+chat.workspace = true
+censor.workspace = true
+macros.workspace = true

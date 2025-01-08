@@ -1,0 +1,15 @@
+[package]
+name = "error"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+thiserror.workspace = true
+serde_json.workspace = true
+sqlx.workspace = true
+lettre.workspace = true
+axum.workspace = true
+jsonwebtoken.workspace = true
+libp2p = { workspace = true , features = [ "tokio", "gossipsub", "mdns", "noise", "macros", "tcp", "yamux", "quic", "dns"] }

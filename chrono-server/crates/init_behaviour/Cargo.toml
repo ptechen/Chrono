@@ -1,0 +1,10 @@
+[package]
+name = "init_behaviour"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+error.workspace = true
+libp2p = { workspace = true, features = [ "tokio",  "noise", "macros", "tcp", "yamux", "quic", "autonat", "dcutr", "ping",  "identify", "kad", "relay", "gossipsub", "request-response", "dcutr"] }
+tokio = { workspace = true, features = ["full"] }
+chat.workspace = true

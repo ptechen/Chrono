@@ -1,0 +1,13 @@
+[package]
+name = "models"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sqlx = { workspace = true, features = ["sqlite", "runtime-tokio", "_unstable-all-types"]}
+once_cell.workspace = true
+serde = { workspace = true, features = ["derive"]}
+error.workspace = true
+async-trait.workspace = true
+tokio = { workspace = true, features = ["full"] }
+dirs.workspace = true

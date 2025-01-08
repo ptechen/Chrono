@@ -1,0 +1,11 @@
+[package]
+name = "avatar"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+image.workspace = true
+identicon-rs.workspace = true
+base64.workspace = true
+bytes.workspace = true
+bs58.workspace = true
